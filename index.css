@@ -1,0 +1,103 @@
+body
+{
+    /* font-family: sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(67, 67, 67);
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    /* max-height: 50%; */
+    height: 17rem;
+    object-fit: fill;
+    
+}
+
+.shadow {
+    box-shadow: 0px 1px 3px rgb(210, 210, 210);
+}
+
+#heading {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#numbers {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+#text {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+label {
+    font-size: 1.5rem;
+    font-weight: 500;
+    /* margin-bottom: 0.25rem; */
+}
+
+.container {
+    width: 35rem;
+    font-size: 0;
+    margin-top: 3rem;
+}
+
+.shadow {
+    padding: 00.75rem 1rem;
+}
+
+.card-content {
+    /* padding: 1rem 1.5rem; */
+    font-size: 14px;
+    /* padding-left: 1em; */
+}
+
+select {
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 1rem;
+}
+
+button
+{
+    padding: 0.75rem 1rem;
+    font-size: 14px;
+    border: none;
+    color: white;
+    border-radius: 0.3rem;
+    box-shadow: 0px 1px 3px rgb(210, 210, 210);
+    /* width: ; */
+}
+
+#b1 {
+    background-color: rgb(95,206,179);
+    width: calc(100% / 3);
+}
+
+#b1:hover {
+    background-color: rgb(73, 163, 141);
+}
+
+#b2 {
+    background-color: rgb(81,150,215);
+    width: calc(100% / 3);
+}
+
+#b2:hover {
+    background-color: rgb(70, 129, 185);
+}
+
+#reset {
+    background-color: rgb(223,84,107);
+    width: calc(100% / 3);
+}
+
+#reset:hover {
+    background-color: rgb(187, 70, 90);
+}
